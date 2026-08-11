@@ -15,39 +15,61 @@
 
 ## Exercises
 
-1. Sales Summary
-2. Data Quality Checker
-3. File Validator
-4. Customer Record Cleaner
-5. Pipeline Health Status
-6. Dataset Access Decision
+1. **Sales Summary**
+
+   * Calculate gross sales, discount amount, and final sales amount.
+
+2. **Data Quality Checker**
+
+   * Calculate the number and percentage of problematic rows and classify the dataset.
+
+3. **File Validator**
+
+   * Validate whether a file has a supported `.csv`, `.json`, or `.parquet` extension.
+
+4. **Customer Record Cleaner**
+
+   * Clean customer information and determine whether the customer is an adult.
+
+5. **Pipeline Health Status**
+
+   * Calculate the failure rate and determine the pipeline status based on failure rate and runtime.
+
+6. **Dataset Access Decision**
+
+   * Determine whether a user should be granted access to a dataset based on their role, account status, and dataset restrictions.
 
 ## How to Run
 
-The exercises are provided as Jupyter Notebook (`.ipynb`) files.
+Each exercise is provided as a Python file.
 
-They can be opened and executed using:
+Run an exercise using:
 
-* VS Code with the Jupyter extension
-* Jupyter Notebook
-* JupyterLab
-* Google Colab
+```bash
+python exercise-01-sales-summary.py
+```
+
+For example:
+
+```bash
+python exercise-05-pipeline-health.py
+```
 
 ## What I Learned
 
-I learned how to use variables, data types, operators, conditional statements, string methods, and user input in Python. I also practiced calculations, data validation, logical conditions, and decision-making using Python.
+I learned how to use variables, data types, operators, user input, string methods, and conditional statements in Python. I also practiced using logical conditions, calculations, and decision-making to solve practical data-related problems.
 
 ## Challenges Faced
 
-I faced some challenges while working with user input, logical operators, and conditional statements. I learned the correct use of `int(input())`, the `and` operator, and multiple conditions to determine the correct result.
+I faced some challenges while working with user input, logical operators, and multiple conditions. I learned how to correctly convert input values to integers, use the `and` operator for multiple conditions, and apply conditional statements to determine the correct result.
 
 ## Files
 
-| File                                     | Description                                         |
-| ---------------------------------------- | --------------------------------------------------- |
-| `exercise-01-sales-summary.ipynb`        | Calculates gross sales, discount, and final sales   |
-| `exercise-02-data-quality-checker.ipynb` | Checks dataset quality                              |
-| `exercise-03-file-validator.ipynb`       | Validates supported file extensions                 |
-| `exercise-04-customer-cleaner.ipynb`     | Cleans customer information                         |
-| `exercise-05-pipeline-health.ipynb`      | Calculates failure rate and pipeline status         |
-| `stretch-access-decision.ipynb`          | Determines whether dataset access should be granted |
+| File                                  | Description                                 |
+| ------------------------------------- | ------------------------------------------- |
+| `exercise-01-sales-summary.py`        | Calculates sales, discount, and final sales |
+| `exercise-02-data-quality-checker.py` | Checks dataset quality                      |
+| `exercise-03-file-validator.py`       | Validates supported file extensions         |
+| `exercise-04-customer-cleaner.py`     | Cleans customer information                 |
+| `exercise-05-pipeline-health.py`      | Calculates failure rate and pipeline status |
+| `stretch-access-decision.py`          | Determines dataset access permission        |
