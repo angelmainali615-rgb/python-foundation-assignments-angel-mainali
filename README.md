@@ -15,7 +15,7 @@ The assignments are organized by day and cover Python programming concepts, data
 ## Assignment Progress
 
 * [x] Day 1: Python Foundations
-* [ ] Day 2: Collections and Loops
+* [x] Day 2: Collections and Loops
 * [ ] Day 3: [Topic]
 
 ## Technologies Used
